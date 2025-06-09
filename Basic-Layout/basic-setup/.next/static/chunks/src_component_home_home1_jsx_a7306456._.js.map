@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/d-node/Internship-Task/Next.js%20Work/Basic-Layout/basic-setup/src/component/home/home1.jsx"],"sourcesContent":["'use client';\r\n\r\nimport { useSelector, useDispatch } from 'react-redux';\r\nimport { increment, decrement } from '../redux/exampleSlice';\r\n\r\nexport default function Home1() {\r\n  const value = useSelector((state) => state.example.value);\r\n  const dispatch = useDispatch();\r\n\r\n  return (\r\n    <div className='bg-yellow-400 min-h-screen'>\r\n      <h1>Counter: {value}</h1>\r\n      <button onClick={() => dispatch(increment())}>Increment</button>\r\n      <button onClick={() => dispatch(decrement())}>Decrement</button>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;;;;;;;;;;;AAAA;;;AAKe,SAAS;;IACtB,MAAM,QAAQ;oCAAY,CAAC,QAAU,MAAM,OAAO,CAAC,KAAK;;IACxD,MAAM,WAAW;IAEjB,qBACE,6LAAC;QAAI,WAAU;;0BACb,6LAAC;;oBAAG;oBAAU;;;;;;;0BACd,6LAAC;gBAAO,SAAS,IAAM,SAAS;0BAAc;;;;;;0BAC9C,6LAAC;gBAAO,SAAS,IAAM,SAAS;0BAAc;;;;;;;;;;;;AAGpD;GAXwB;;QACR;QACG;;;KAFK","debugId":null}},
+    {"offset": {"line": 80, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

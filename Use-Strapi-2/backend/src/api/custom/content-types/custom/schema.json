@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customs",
+  "info": {
+    "singularName": "custom",
+    "pluralName": "customs",
+    "displayName": "custom"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product",
+      "mappedBy": "custom"
+    }
+  }
+}
+
+

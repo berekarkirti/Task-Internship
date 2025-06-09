@@ -1,0 +1,282 @@
+[
+    {
+        "id": 1,
+        "country": "USA",
+        "purpose": "Study",
+        "visaType": "F-1 Student Visa",
+        "duration": "Up to 5 years",
+        "processingTime": "1-3 months",
+        "cost": "$185",
+        "requirements": [
+            "Acceptance letter",
+            "Proof of funds",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 2,
+        "country": "USA",
+        "purpose": "Work",
+        "visaType": "H-1B Visa",
+        "duration": "Up to 3 years",
+        "processingTime": "3-6 months",
+        "cost": "$460",
+        "requirements": [
+            "Job offer",
+            "Degree certificate",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 3,
+        "country": "Canada",
+        "purpose": "Work",
+        "visaType": "Temporary Work Permit",
+        "duration": "Up to 2 years",
+        "processingTime": "2-6 weeks",
+        "cost": "$155",
+        "requirements": [
+            "Job offer",
+            "LMIA",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 4,
+        "country": "Canada",
+        "purpose": "Study",
+        "visaType": "Study Permit",
+        "duration": "Up to 4 years",
+        "processingTime": "4-8 weeks",
+        "cost": "$150",
+        "requirements": [
+            "Acceptance letter",
+            "Proof of funds",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 5,
+        "country": "Australia",
+        "purpose": "Travel",
+        "visaType": "Visitor Visa (Subclass 600)",
+        "duration": "Up to 12 months",
+        "processingTime": "20-30 days",
+        "cost": "$140",
+        "requirements": [
+            "Travel itinerary",
+            "Proof of funds",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 6,
+        "country": "Australia",
+        "purpose": "Work",
+        "visaType": "Working Holiday Visa",
+        "duration": "Up to 1 year",
+        "processingTime": "1-2 months",
+        "cost": "$510",
+        "requirements": [
+            "Age 18-30",
+            "Valid passport",
+            "Health insurance"
+        ]
+    },
+    {
+        "id": 7,
+        "country": "UK",
+        "purpose": "Study",
+        "visaType": "Student Visa",
+        "duration": "Up to 5 years",
+        "processingTime": "3-5 weeks",
+        "cost": "$490",
+        "requirements": [
+            "Course confirmation",
+            "Proof of funds",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 8,
+        "country": "UK",
+        "purpose": "Travel",
+        "visaType": "Standard Visitor Visa",
+        "duration": "Up to 6 months",
+        "processingTime": "2-3 weeks",
+        "cost": "$130",
+        "requirements": [
+            "Travel itinerary",
+            "Proof of funds",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 9,
+        "country": "USA",
+        "purpose": "Travel",
+        "visaType": "B-2 Tourist Visa",
+        "duration": "Up to 6 months",
+        "processingTime": "2-4 weeks",
+        "cost": "$160",
+        "requirements": [
+            "Travel itinerary",
+            "Proof of funds",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 10,
+        "country": "Canada",
+        "purpose": "Travel",
+        "visaType": "Visitor Visa",
+        "duration": "Up to 6 months",
+        "processingTime": "1-3 weeks",
+        "cost": "$100",
+        "requirements": [
+            "Travel itinerary",
+            "Proof of funds",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 11,
+        "country": "USA",
+        "purpose": "Work",
+        "visaType": "L-1 Intra-Company Transfer Visa",
+        "duration": "Up to 1 year",
+        "processingTime": "1-2 weeks",
+        "cost": "$190",
+        "requirements": [
+            "Company transfer letter",
+            "Proof of employment",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 12,
+        "country": "Germany",
+        "purpose": "Study",
+        "visaType": "Student Visa",
+        "duration": "Up to 2 years",
+        "processingTime": "6-12 weeks",
+        "cost": "$80",
+        "requirements": [
+            "University admission letter",
+            "Proof of funds",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 13,
+        "country": "Germany",
+        "purpose": "Work",
+        "visaType": "EU Blue Card",
+        "duration": "Up to 4 years",
+        "processingTime": "2-3 months",
+        "cost": "$110",
+        "requirements": [
+            "Job offer with salary threshold",
+            "Degree certificate",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 14,
+        "country": "New Zealand",
+        "purpose": "Travel",
+        "visaType": "Visitor Visa",
+        "duration": "Up to 9 months",
+        "processingTime": "20-30 days",
+        "cost": "$165",
+        "requirements": [
+            "Travel itinerary",
+            "Proof of funds",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 15,
+        "country": "New Zealand",
+        "purpose": "Work",
+        "visaType": "Essential Skills Work Visa",
+        "duration": "Up to 3 years",
+        "processingTime": "4-6 weeks",
+        "cost": "$495",
+        "requirements": [
+            "Job offer",
+            "Skill assessment",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 16,
+        "country": "France",
+        "purpose": "Study",
+        "visaType": "Long-Stay Student Visa",
+        "duration": "Up to 1 year",
+        "processingTime": "3-6 weeks",
+        "cost": "$100",
+        "requirements": [
+            "Enrollment certificate",
+            "Proof of funds",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 17,
+        "country": "France",
+        "purpose": "Travel",
+        "visaType": "Schengen Visa",
+        "duration": "Up to 90 days",
+        "processingTime": "15-30 days",
+        "cost": "$90",
+        "requirements": [
+            "Travel itinerary",
+            "Accommodation proof",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 18,
+        "country": "Japan",
+        "purpose": "Work",
+        "visaType": "Highly Skilled Professional Visa",
+        "duration": "Up to 5 years",
+        "processingTime": "1-3 months",
+        "cost": "$60",
+        "requirements": [
+            "Job offer",
+            "Points-based assessment",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 19,
+        "country": "Japan",
+        "purpose": "Travel",
+        "visaType": "Tourist Visa",
+        "duration": "Up to 90 days",
+        "processingTime": "5-10 days",
+        "cost": "$30",
+        "requirements": [
+            "Travel itinerary",
+            "Proof of funds",
+            "Valid passport"
+        ]
+    },
+    {
+        "id": 20,
+        "country": "Singapore",
+        "purpose": "Work",
+        "visaType": "Employment Pass",
+        "duration": "Up to 2 years",
+        "processingTime": "3-5 weeks",
+        "cost": "$105",
+        "requirements": [
+            "Job offer",
+            "Degree certificate",
+            "Valid passport"
+        ]
+    }
+]

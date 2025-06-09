@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* first signup or login k bad dashboard page show hoga usme ek sidebar hoga jisme Dashboard product category and profile page  dikhenge or dusri side dashboard pe category product or stock alert ki total value sirf shoe hongi uske bad jb product pr click karu to product ka table show hona chahiye jisme multiple img id name price stock category or actions me edit ke liye pen icon or delete ka icon or product page me uper serch bar ho dashboard ke uper jo user login ho uski profile img or side me uska name or uske baju me drop down btn ho jata logout btn or show profile btn dikhe  */

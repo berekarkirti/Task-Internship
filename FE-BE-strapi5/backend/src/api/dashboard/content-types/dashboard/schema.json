@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dashboards",
+  "info": {
+    "singularName": "dashboard",
+    "pluralName": "dashboards",
+    "displayName": "Dashboard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product",
+      "mappedBy": "dashboard"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+export const floorTab = [
+    {
+        id:1,
+        title:'BASEMENT',
+        img:'',
+        squareFeet:'2,537',
+        parking:2,
+        halfBaths:4,
+        fullBaths:2,
+        bedroom:5
+    },
+    {
+        id:2,
+        title:'GROUND FLOOR',
+        img:'',
+        squareFeet:'2,537',
+        parking:2,
+        halfBaths:4,
+        fullBaths:2,
+        bedroom:5
+    },
+    {
+        id:3,
+        title:'1ST FLOOR',
+        img:'',
+        squareFeet:'2,537',
+        parking:2,
+        halfBaths:4,
+        fullBaths:2,
+        bedroom:5
+    },{
+        id:4,
+        title:'2ND FLOOR',
+        img:'',
+        squareFeet:'2,537',
+        parking:2,
+        halfBaths:4,
+        fullBaths:2,
+        bedroom:5
+    },
+    {
+        id:5,
+        title:'ROOFTOP',
+        img:'',
+        squareFeet:'2,537',
+        parking:2,
+        halfBaths:4,
+        fullBaths:2,
+        bedroom:5
+    }
+]

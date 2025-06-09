@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* Cascade Layers for better styling control */
+@layer base {
+    h1 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
+
+/* Custom Properties with @property */
+
+:root {
+    --custom-color: white;
+}
+
+@property --custom-color {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: white;
+}
+
+.dynamic-text {
+    color: var(--custom-color);
+    transition: color 0.3s ease-in-out;
+}
+
+/* Using color-mix() */
+.theme-light {
+    --bg-color: color-mix(in srgb, white 80%, blue);
+}
+
+.theme-dark {
+    --bg-color: color-mix(in srgb, black 80%, blue);
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+@layer base {
+    :root {
+        --primary-color: #ff5733;
+    }
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.custom-button {
+    background-color: var(--color-gray-300);
+    padding: var(--spacing-4);
+    border-radius: var(--radius-xl);
+}
+
+.custom-text {
+    color: var(--color-secondary);
+    font-size: var(--text-lg);
+}
+
+@container (min-width: 600px) {
+    .container-query {
+        padding: 2rem;
+        background-color: rgb(13, 67, 85);
+    }
+}
+
+
+.container-query {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}

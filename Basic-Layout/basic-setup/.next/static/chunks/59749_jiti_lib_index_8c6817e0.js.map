@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["file://D%3A/d-node/Internship-Task/Next.js%20Work/Basic-Layout/basic-setup/node_modules/tailwindcss/node_modules/jiti/lib/index.js"],"sourcesContent":["function onError(err) {\n  throw err; /* ↓ Check stack trace ↓ */\n}\n\nmodule.exports = function jiti(filename, opts) {\n  const jiti = require(\"../dist/jiti\");\n\n  opts = { onError, ...opts };\n\n  if (!opts.transform) {\n    opts.transform = require(\"../dist/babel\");\n  }\n\n  return jiti(filename, opts);\n};\n"],"names":[],"mappings":"AAAA,SAAS,QAAQ,GAAG;IAClB,MAAM,KAAK,yBAAyB;AACtC;AAEA,OAAO,OAAO,GAAG,SAAS,KAAK,QAAQ,EAAE,IAAI;IAC3C,MAAM;IAEN,OAAO;QAAE;QAAS,GAAG,IAAI;IAAC;IAE1B,IAAI,CAAC,KAAK,SAAS,EAAE;QACnB,KAAK,SAAS;IAChB;IAEA,OAAO,KAAK,UAAU;AACxB","ignoreList":[0],"debugId":null}},
+    {"offset": {"line": 20, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
